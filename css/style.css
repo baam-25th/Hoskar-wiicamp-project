@@ -59,6 +59,7 @@
 }
 
 .nav__mobile-menu {
+  display: none;
   position: fixed;
   top: 80px;
   right: 0;
