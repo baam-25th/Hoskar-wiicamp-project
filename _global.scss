@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s linear;
+    box-sizing: border-box;
+}
+
+// .btn-z:hover {
+//     transform: scale(1.2);
+// }
+.lineh {
+    width: 48px;
+    height: 2px;
+    margin-right: 37px;
+    margin-top: 10px;
+    background-color: $primary-color;
+    display: inline-block;
+}
+
+.line {
+    width: 33px;
+    height: 1px;
+    background-color: #e7e0e0;
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-top: 16px;
+}

@@ -1,0 +1,53 @@
+.invest-wrapper {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.invest-container {
+    max-width: 1327px;
+    margin-right: 0;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 0 55px;
+    // text-transform: uppercase;
+}
+
+.invest-content {
+    max-width: 108px;
+    font-family: $primary-font;
+    font-size: 18px;
+    line-height: 19.8px;
+    font-weight: 700;
+    color: #4f4f4f;
+    margin-right: 55px;
+    padding: 68px 0px;
+    span {
+        position: absolute;
+        top: 88px;
+        color: $dark-green;
+        font-family: $secondary-font;
+        font-size: 58px;
+        font-weight: 400;
+    }
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 3px;
+    .swiper-wrapper {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: auto;
+        .slide-item {
+            max-width: 216px;
+            width: auto;
+            height: auto;
+            margin-right: 64px;
+        }
+    }
+}
