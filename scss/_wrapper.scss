@@ -13,6 +13,9 @@
         display: flex;
         justify-content: center;
         z-index: 2;
+        .wrapper-content {
+            margin-top: 80px;
+        }
     }
     &-title {
         h1 {
@@ -22,14 +25,17 @@
             font-size: 50px;
             line-height: 130%;
             margin-top: 34px;
+            text-align: center;
             letter-spacing: 0.4px;
         }
         span {
+            color: $primary-color;
             font-family: $secondary-font;
             font-size: 53px;
             font-weight: 400;
             line-height: 130%;
-            color: $primary-color;
+            display: flex;
+            text-align: center;
             letter-spacing: 0.4px;
             margin: 3px 0 0 4px;
         }
@@ -58,4 +64,17 @@
     top: 0;
     left: 0;
     opacity: 0.6;
+}
+
+// Responsive
+// Breakpoint : 563px
+@media screen and (max-width: 563px) {
+    .wrapper .wrapper-content .wrapper-title {
+        h1 {
+            font-size: 26px;
+        }
+        span {
+            font-size: 26px;
+        }
+    }
 }

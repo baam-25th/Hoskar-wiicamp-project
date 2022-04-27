@@ -1,0 +1,34 @@
+.foot-hoskar {
+    width: 100%;
+    background-color: #006165;
+    transform: translateY(-4px);
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 106px;
+        margin-right: 106px
+    }
+    .cpyright {
+        display: inline-block;
+    }
+}
+
+.copyright {
+    font-family: Urbanist;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 22px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .foot-hoskar .footer-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .copyright {
+        padding: 22px 2px;
+    }
+}

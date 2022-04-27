@@ -233,7 +233,7 @@
     .about-top .container .about__content .about__content--text {
         margin-top: 115px;
     }
-    .about-bottom .container {
+    .about-bottom .about-bottom-container {
         gap: 0 60px;
         .about__list {
             h2 {
@@ -277,5 +277,13 @@
     }
     .mobile-about-bottom {
         display: block;
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .mobile-about-list {
+        p {
+            font-size: 15px !important;
+        }
     }
 }

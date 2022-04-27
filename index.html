@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="app.scss" />
+    <link rel="stylesheet" href="./scss/app.scss" />
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet" />
     <link href="http://fonts.cdnfonts.com/css/beautiful-heart" rel="stylesheet" />
     <link rel="stylesheet" id="swiper-bundle-css" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="icons/css/all.css" />
@@ -46,7 +48,7 @@
           <i class="fa-solid fa-bars menu-icon"></i>
         </label>
             <input type="checkbox" hidden name="" id="nav-mobile-input" class="nav__input" />
-            <label for="nav-mobile-input"></label>
+            <label hidden for="nav-mobile-input"></label>
             <nav class="nav__mobile-menu">
                 <ul class="mobile-menu fontU">
                     <li class="menu-item">
@@ -398,278 +400,219 @@
               <img src="./img/our-title.png" alt="" />
             </span>
           </div>
-          <div class="our-sider">
-            <div class="slick-wrapper">
-              <div class="slick-slide" style="display: flex">
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Catherine Chan</span>
-                    <span class="position">Director of Residential Marketing Advisory Services...</span>
-                    <span class="company">Accor</span>
-                  </div>
+          <div class="our-slider">
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide-item">
+                    <img src="/img/our1-1.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
                 </div>
                 <div class="slide-item">
                   <img src="/img/our1-2.png" alt="" class="img-item" />
                   <div class="item-content">
-                    <span class="name">Clint Nagata</span>
-                    <span class="position">Founder & Creative Partner </span>
-                    <span class="company">BLINK Design Group </span>
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
                   </div>
                 </div>
                 <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Dan Levin</span>
-                    <span class="position">Senior Functionality Planner</span>
-                    <span class="company">Senior Functionality Planner</span>
-                  </div>
+                    <img src="/img/our1-1.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
                 </div>
                 <div class="slide-item">
-                  <img src="/img/our1-4.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Eudo Chan</span>
-                    <span class="position">Director of Development</span>
-                    <span class="company">Wyndham Hotels & Resorts, Asia Pacific </span>
-                  </div>
+                      <img src="/img/our1-2.png" alt="" class="img-item" />
+                      <div class="item-content">
+                          <span class="name">Catherine Chan</span>
+                          <span class="position">Director of Residential Marketing Advisory Services...</span>
+                          <span class="company">Accor</span>
+                      </div>
                 </div>
                 <div class="slide-item">
-                  <img src="/img/our1-5.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Felice Iacobellies</span>
-                    <span class="position">Director</span>
-                    <span class="company">SIRHALO</span>
-                  </div>
+                      <img src="/img/our1-1.png" alt="" class="img-item" />
+                      <div class="item-content">
+                          <span class="name">Catherine Chan</span>
+                          <span class="position">Director of Residential Marketing Advisory Services...</span>
+                          <span class="company">Accor</span>
+                      </div>
                 </div>
                 <div class="slide-item">
-                  <img src="/img/our1-6.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Oliver Horn</span>
-                    <span class="position">General Manager </span>
-                    <span class="company">InterContinental Phu Quoc Long Beach Resort </span>
-                  </div>
+                        <img src="/img/our1-2.png" alt="" class="img-item" />
+                        <div class="item-content">
+                            <span class="name">Catherine Chan</span>
+                            <span class="position">Director of Residential Marketing Advisory Services...</span>
+                            <span class="company">Accor</span>
+                        </div>
                 </div>
                 <div class="slide-item">
-                  <img src="/img/our1-7.png" alt="" class="img-item" />
+                  <img src="/img/our1-1.png" alt="" class="img-item" />
                   <div class="item-content">
-                    <span class="name">Hoang Nguyen</span>
-                    <span class="position">CEO</span>
-                    <span class="company">CiHMS</span>
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
                   </div>
-                </div>
+            </div>
+            <div class="slide-item">
+                    <img src="/img/our1-2.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
+            </div>
+              </div>
+              <div class="swiper-slide">
                 <div class="slide-item">
-                  <img src="/img/our1-8.png" alt="" class="img-item" />
+                  <img src="/img/our1-1.png" alt="" class="img-item" />
                   <div class="item-content">
-                    <span class="name">Varun Grover</span>
-                    <span class="position">Country Manager for Vietnam and South Thailand </span>
-                    <span class="company">Booking.com </span>
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
                   </div>
+              </div>
+              <div class="slide-item">
+                <img src="/img/our1-2.png" alt="" class="img-item" />
+                <div class="item-content">
+                    <span class="name">Catherine Chan</span>
+                    <span class="position">Director of Residential Marketing Advisory Services...</span>
+                    <span class="company">Accor</span>
                 </div>
               </div>
-              <div class="slick-silde" style="display: flex">
-                <div class="slide-item">
+              <div class="slide-item">
                   <img src="/img/our1-1.png" alt="" class="img-item" />
                   <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
                   </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
               </div>
-              <div class="slick-silde" style="display: flex">
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-3.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
+              <div class="slide-item">
+                    <img src="/img/our1-2.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
               </div>
-              <div class="slick-silde" style="display: flex">
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
+              <div class="slide-item">
+                    <img src="/img/our1-1.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
+              </div>
+              <div class="slide-item">
+                      <img src="/img/our1-2.png" alt="" class="img-item" />
+                      <div class="item-content">
+                          <span class="name">Catherine Chan</span>
+                          <span class="position">Director of Residential Marketing Advisory Services...</span>
+                          <span class="company">Accor</span>
+                      </div>
+              </div>
+              <div class="slide-item">
+                <img src="/img/our1-1.png" alt="" class="img-item" />
+                <div class="item-content">
+                    <span class="name">Catherine Chan</span>
+                    <span class="position">Director of Residential Marketing Advisory Services...</span>
+                    <span class="company">Accor</span>
                 </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
+          </div>
+          <div class="slide-item">
+                  <img src="/img/our1-2.png" alt="" class="img-item" />
                   <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
                   </div>
+          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-item">
+                <img src="/img/our1-1.png" alt="" class="img-item" />
+                <div class="item-content">
+                    <span class="name">Catherine Chan</span>
+                    <span class="position">Director of Residential Marketing Advisory Services...</span>
+                    <span class="company">Accor</span>
                 </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
-                <div class="slide-item">
-                  <img src="/img/our1-1.png" alt="" class="img-item" />
-                  <div class="item-content">
-                    <span class="name">Gibran Bukhari</span>
-                    <span class="position">Head of Sales</span>
-                    <span class="company">Masterise Homes</span>
-                  </div>
-                </div>
+            </div>
+            <div class="slide-item">
+              <img src="/img/our1-2.png" alt="" class="img-item" />
+              <div class="item-content">
+                  <span class="name">Catherine Chan</span>
+                  <span class="position">Director of Residential Marketing Advisory Services...</span>
+                  <span class="company">Accor</span>
               </div>
             </div>
+            <div class="slide-item">
+                <img src="/img/our1-1.png" alt="" class="img-item" />
+                <div class="item-content">
+                    <span class="name">Catherine Chan</span>
+                    <span class="position">Director of Residential Marketing Advisory Services...</span>
+                    <span class="company">Accor</span>
+                </div>
+            </div>
+            <div class="slide-item">
+                  <img src="/img/our1-2.png" alt="" class="img-item" />
+                  <div class="item-content">
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
+                  </div>
+            </div>
+            <div class="slide-item">
+                  <img src="/img/our1-1.png" alt="" class="img-item" />
+                  <div class="item-content">
+                      <span class="name">Catherine Chan</span>
+                      <span class="position">Director of Residential Marketing Advisory Services...</span>
+                      <span class="company">Accor</span>
+                  </div>
+            </div>
+            <div class="slide-item">
+                    <img src="/img/our1-2.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
+            </div>
+            <div class="slide-item">
+              <img src="/img/our1-1.png" alt="" class="img-item" />
+              <div class="item-content">
+                  <span class="name">Catherine Chan</span>
+                  <span class="position">Director of Residential Marketing Advisory Services...</span>
+                  <span class="company">Accor</span>
+            </div>
+            </div>
+            <div class="slide-item">
+                    <img src="/img/our1-2.png" alt="" class="img-item" />
+                    <div class="item-content">
+                        <span class="name">Catherine Chan</span>
+                        <span class="position">Director of Residential Marketing Advisory Services...</span>
+                        <span class="company">Accor</span>
+                    </div>
+            </div>
           </div>
+              </div>
+              
+            </div> 
+          </div>
+          <div class="swiper-pagination"></div>
+          <img src="https://hoskarnight.com/wp-content/themes/hoskar/assets/images/next.png" class="swiper-button-next next-prev"></img>
+            <img src="https://hoskarnight.com/wp-content/themes/hoskar/assets/images/back.png" class="swiper-button-prev next-prev"></img>
+          <div class="our-btn btn-z">
+            <a href="" class="">See Our Full Comunity</a>
         </div>
-        <div class="our-btn btn-z">
-          <a href="" class="">See Our Full Comunity</a>
         </div>
+
         </section>
 
         <section class="event">
@@ -734,7 +677,11 @@
 
         <footer class="foot-hoskar">
             <div class="footer-container">
-                <div class="coppyright">Copyright ©2021 Hoskar Night</div>
+                <div class="copyright">Copyright ©2021 Hoskar Night</div>
+                <div class="cpy-right">
+                    <span class="copyright">Privacy Policy</span>
+                    <span class="copyright">Terms of Use</span>
+                </div>
             </div>
         </footer>
 

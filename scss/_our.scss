@@ -1,0 +1,194 @@
+.our {
+    width: 100%;
+    height: 100%;
+    padding-top: 84px;
+    position: relative;
+    &-container {
+        max-width: 1300px;
+        padding: 0 56px;
+        margin: 0 auto;
+        position: relative;
+    }
+    &-slider {
+        max-width: 1188px;
+        margin: auto;
+        display: flex;
+        position: relative;
+        .swiper-slide {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 60px 71px;
+            .slide-item {
+                max-width: 230px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                .img-item {
+                    width: 100%;
+                    height: 100%;
+                }
+                .item-content {
+                    font-family: $primary-font;
+                    .name {
+                        font-size: 24px;
+                        line-height: calc(29 / 24);
+                        font-weight: 700;
+                        margin-top: 16px;
+                    }
+                    .position,
+                    .company {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: calc(19 / 16);
+                        color: #0c2d35;
+                        margin: 4px 0;
+                    }
+                    .company {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+    span {
+        display: block;
+        text-align: center;
+    }
+    .item-content {
+        font-family: $primary-font;
+        .name {
+            font-size: 24px;
+            line-height: calc(29 / 24);
+            font-weight: 700;
+            margin-top: 16px;
+        }
+        .position,
+        .company {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(19 / 16);
+            color: #0c2d35;
+            margin: 4px 0;
+        }
+        .company {
+            font-weight: 700;
+        }
+    }
+    // Our-Top
+    &-top {
+        padding-bottom: 62px;
+        h2 {
+            font-size: 72px;
+            line-height: 110%;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+            color: #006165;
+        }
+        span {
+            font-family: $secondary-font;
+            font-size: 36px;
+            font-weight: 400;
+            gap: 0 8px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    }
+    &-btn {
+        width: 255px;
+        border-radius: 27px;
+        padding: 17px 38.5px;
+        margin: auto;
+        margin-top: 82px;
+        background: linear-gradient(88.09deg, #7443f9 3.26%, #e24bbb 100%);
+        text-align: center;
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            font-family: $primary-font;
+            font-size: 16px;
+            line-height: 120%;
+            font-weight: 700;
+        }
+    }
+}
+
+.our .our-container .next-prev {
+    width: 7px;
+    height: 14px;
+}
+
+.our .our-container .swiper-button-next {
+    right: 0;
+}
+
+.our .our-container .swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+    gap: 0 24px;
+    span {
+        width: 6px;
+        height: 6px;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #E24BBB;
+    }
+}
+
+// Responsive
+@media screen and (max-width: 1023px) {
+    .our-container {
+        padding: 0 15px;
+    }
+    .slide-item {
+        width: 200px;
+        .img-item {
+            width: 200px;
+            height: 230px;
+        }
+        .item-content .name {
+            font-size: 18px !important;
+        }
+        .item-content .position,
+        .item-content .company {
+            font-size: 12px !important;
+        }
+    }
+    .swiper-wrapper .swiper-slide {
+        gap: 32px 32px;
+    }
+}
+
+// Breakpoint: 768px
+@media screen and (max-width: 768px) {
+    .slide-item {
+        width: 150px;
+        .img-item {
+            width: 150px;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .our-slider {
+        display: none;
+    }
+    .swiper-pagination,
+    img.next-prev {
+        display: none;
+    }
+    .our-btn {
+        margin-top: 0;
+    }
+}
