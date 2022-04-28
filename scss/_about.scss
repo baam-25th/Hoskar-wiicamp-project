@@ -4,17 +4,36 @@
     height: 100%;
     position: relative;
     background-color: $dark-green;
+    .circle-2 {
+        position: absolute;
+        right: 0;
+        top: 360px;
+    }
+    .about-foot-1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 }
 
 // About-Top
 .about-top {
     padding: 110px 0 135px 0;
+    position: relative;
+    .circle-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
     .container {
         max-width: 1220px;
         margin: 0 auto;
         padding: 0 16px;
         display: flex;
         justify-content: space-between;
+        position: relative;
+        z-index: 10;
         .about__content {
             flex: 1;
             h2 {
@@ -32,6 +51,7 @@
                     font-family: $secondary-font;
                     font-weight: 400;
                 }
+                z-index: 10;
             }
             .about__content--text {
                 max-width: 485px;
