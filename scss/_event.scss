@@ -297,6 +297,9 @@
         padding: 0;
         min-height: 453px;
         .contact-container {
+            .form-signup .search-submit {
+                padding: 14.5px 0px;
+            }
             .message span {
                 font-size: 18px;
                 margin: 0 5.5px;
