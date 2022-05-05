@@ -106,6 +106,7 @@
 .about-bottom {
     width: 100%;
     position: relative;
+    z-index: 10;
     padding-bottom: 89px;
     .about-bottom-container {
         max-width: 1327px;
@@ -198,6 +199,7 @@
 
 .mobile-about-bottom {
     display: none;
+    position: relative;
     &-container {
         max-width: 1327px;
         margin: auto;
